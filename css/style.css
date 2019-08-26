@@ -1,4 +1,3 @@
-@charset "UTF-8";
 html {
   font-size: 62.5%; }
 
@@ -16,57 +15,6 @@ body {
   font-size: 1.4rem;
   font-family: "Raleway", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
 
-.header {
-  padding: 170px 30px 80px; }
-
-.site-title-sub {
-  margin: 0 auto 30px;
-  letter-spacing: 1px; }
-
-.site-title-sub::before,
-.site-title-sub::after {
-  content: "";
-  display: inline-block;
-  background-color: #fff;
-  width: 140px;
-  height: 2px;
-  vertical-align: middle;
-  border: 1px solid;
-  margin: 0 30px; }
-
-.site-title {
-  font-size: 4rem;
-  margin: 40px auto 0; }
-
-.buttons {
-  margin: 40px auto 50px; }
-
-.button {
-  text-decoration: none;
-  display: inline-block;
-  width: 200px;
-  height: 50px;
-  color: white;
-  background-color: #ff4de1;
-  border-radius: 5px;
-  padding: 20px;
-  letter-spacing: 1px;
-  font-size: 1rem;
-  text-align: 50px; }
-
-.button-showy {
-  background-color: #4dff4d; }
-
-.button:hover {
-  opacity: 0.9; }
-
-.buttons .button {
-  margin: 10px; }
-
-.about {
-  padding: 50px 30px;
-  background-color: black; }
-
 .heading {
   font-size: 2.4rem;
   padding-bottom: 12px;
@@ -75,96 +23,71 @@ body {
   position: relative;
   display: inline-block; }
 
-.heading::before,
-.heading::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  /*background-color: white;*/
-  border-bottom: 1px solid white; }
+.header {
+  padding: 170px 30px 80px; }
+  .header .site-title-sub {
+    margin: 0 auto 30px;
+    letter-spacing: 1px; }
+    .header .site-title-sub::before, .header .site-title-sub::after {
+      content: "";
+      display: inline-block;
+      background-color: #fff;
+      width: 140px;
+      height: 2px;
+      vertical-align: middle;
+      border: 1px solid;
+      margin: 0 30px; }
+  .header .site-title {
+    font-size: 4rem;
+    margin: 40px auto 0; }
+  .header .buttons {
+    margin: 40px auto 50px; }
+    .header .buttons .button {
+      text-decoration: none;
+      display: inline-block;
+      width: 200px;
+      height: 50px;
+      color: white;
+      background-color: #ff4de1;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 10px;
+      letter-spacing: 1px;
+      font-size: 1rem;
+      text-align: 50px; }
+      .header .buttons .button:hover {
+        opacity: 0.9; }
+    .header .buttons .button-showy {
+      background-color: #4dff4d; }
 
-.heading::after {
-  bottom: 5px; }
-
-.about-text {
-  margin: 0 230px 50px;
-  line-height: 2.5; }
+.about {
+  padding: 50px 30px;
+  background-color: black; }
+  .about .heading::before, .about .heading::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /*background-color: white;*/
+    border-bottom: 1px solid white; }
+  .about .heading::after {
+    bottom: 5px; }
+  .about .about-text {
+    margin: 0 230px 50px;
+    line-height: 2.5; }
 
 .works {
   padding: 50px 30px; }
-
-.works-text {
-  margin: 0 230px 50px; }
+  .works .works-text {
+    margin: 0 230px 50px; }
 
 .skills {
   padding: 50px 30px;
   background-color: black; }
-
-.skills-text {
-  margin: 0 230px 50px;
-  letter-spacing: 1px; }
-
-.contact {
-  padding: 50px 30px; }
-
-.contact-form {
-  width: 50%;
-  margin: 0 auto; }
-
-.contact .heading {
-  margin-bottom: 20px; }
-
-input[type="text"],
-input[type="email"] {
-  display: block;
-  width: 100%;
-  padding: 15px;
-  margin: 30px auto;
-  border-radius: 5px;
-  outline: none;
-  /*border:1px solid #f5f5f5;*/
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  background-color: rgba(255, 255, 255, 0.5);
-  /*cursor: pointer;*/
-  font-size: 1rem;
-  /*白の透明度を上げてやれば透けガラス風*/ }
-
-textarea {
-  width: 100%;
-  height: 200px;
-  display: block;
-  padding: 15px;
-  margin: 30px auto;
-  border-radius: 5px;
-  outline: none;
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  background-color: rgba(255, 255, 255, 0.5);
-  font-size: 1rem;
-  /*cursor: pointer;*/ }
-
-input[type="text"]:focus,
-input[type="email"]:focus,
-textarea:focus {
-  -webkit-box-shadow: inset 0 0 10px 4px rgba(255, 255, 255, 0.5);
-  box-shadow: inset 0 0 10px 4px rgba(255, 255, 255, 0.5);
-  cursor: text;
-  background-color: rgba(255, 255, 255, 0.8); }
-
-input[type="submit"] {
-  display: block;
-  padding: 15px;
-  margin: 15px auto;
-  width: 200px;
-  /*height: 300px;*/
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.5);
-  font-size: 1rem; }
-
-input[type="submit"]:hover {
-  opacity: 0.9;
-  cursor: pointer; }
+  .skills .skills-text {
+    margin: 0 230px 50px;
+    letter-spacing: 1px; }
 
 .footer {
   font-size: 1rem;
@@ -191,32 +114,6 @@ input[type="submit"]:hover {
   p.works-text,
   p.skills-text {
     margin-bottom: 50px; }
-  .contact-form {
-    width: 100%; }
   .footer {
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.6); } }
-
-/*confirmation.php*/
-.confirmation {
-  padding: 170px 30px 170px; }
-
-.confirmation-form {
-  width: 50%;
-  margin: 0 auto;
-  display: block;
-  padding: 15px;
-  border-radius: 5px;
-  outline: none;
-  /*border:1px solid #f5f5f5;*/
-  border: 1px solid rgba(255, 255, 255, 0.4);
-  background-color: rgba(255, 255, 255, 0.5);
-  /*cursor: pointer;*/
-  font-size: 1rem; }
-
-.confirmation-form input[type="submit"] {
-  display: inline-block; }
-
-.confirmation-text {
-  line-height: 2.5;
-  font-size: 1.4rem; }
