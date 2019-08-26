@@ -547,7 +547,7 @@ body {
 .button {
   position: absolute;
   top: 80%;
-  left: 50%;
+  left: 49%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
@@ -556,9 +556,9 @@ body {
   width: 200px;
   height: 34px;
   color: white;
-  background-color: #4dd4ff;
+  background-color: #1e0731;
   border-radius: 5px;
   margin: 10px;
   padding-top: 20px;
   letter-spacing: 1px;
-  font-size: 1.2rem; }
+  font-size: 1.4rem; }

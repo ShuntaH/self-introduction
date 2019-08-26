@@ -5,23 +5,6 @@ html {
   height: 100%;
 }
 
-// *,
-// *::before,
-// *::after {
-//   box-sizing: border-box;
-// }
-
-// body {
-//   height: 100%;
-//   padding: 20px 60px;
-//   background-image: url(./../images/top-background.jpg);
-//   background-repeat: no-repeat;
-//   background-size: cover;
-//   font-size: 1.4rem;
-//   font-family: "Raleway", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
-//   letter-spacing: 1px;
-// }
-
 body {
   background-color: #1e0731;
 }
@@ -664,7 +647,7 @@ body {
 .button {
   position: absolute;
   top: 80%;
-  left: 50%;
+  left: 49%;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
@@ -673,10 +656,10 @@ body {
   width: 200px;
   height: 34px;
   color: white;
-  background-color: #4dd4ff;
+  background-color: #1e0731;
   border-radius: 5px;
   margin: 10px;
   padding-top: 20px;
   letter-spacing: 1px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
