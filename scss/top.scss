@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  padding: 20px 60px;
+  background-image: url(./../images/top-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1.4rem;
+  font-family: "Raleway", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  letter-spacing: 1px;
+}
+
+header {
+  .logo {
+    a {
+      font-size: 32px;
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+section {
+  height: 100%;
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 40px;
+    .left {
+      width: 50%;
+      color: white;
+      h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+    }
+
+    .right {
+      width: 50%;
+
+      .buttons {
+        position: relative;
+
+        .button {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          text-align: center;
+          text-decoration: none;
+          width: 200px;
+          height: 50px;
+          color: white;
+          background-color: #ff4de1;
+          border-radius: 5px;
+          padding: 20px;
+          margin: 10px;
+          letter-spacing: 1px;
+          font-size: 1.6rem;
+        }
+      }
+
+      &:hover {
+        opacity: 0.9;
+      }
+    }
+  }
+}
