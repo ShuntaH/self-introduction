@@ -1,12 +1,14 @@
 @charset "UTF-8";
+
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+}
 
 *,
 *::before,
 *::after {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
   background: #151515 url("../images/background.jpg") no-repeat bottom fixed;
@@ -14,14 +16,17 @@ body {
   color: #fff;
   text-align: center;
   font-size: 1.4rem;
-  font-family: "Raleway", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; }
+  font-family: "Raleway", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+}
 
 .header {
-  padding: 170px 30px 80px; }
+  padding: 170px 30px 80px;
+}
 
 .site-title-sub {
   margin: 0 auto 30px;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+}
 
 .site-title-sub::before,
 .site-title-sub::after {
@@ -32,14 +37,17 @@ body {
   height: 2px;
   vertical-align: middle;
   border: 1px solid;
-  margin: 0 30px; }
+  margin: 0 30px;
+}
 
 .site-title {
   font-size: 4rem;
-  margin: 40px auto 0; }
+  margin: 40px auto 0;
+}
 
 .buttons {
-  margin: 40px auto 50px; }
+  margin: 40px auto 50px;
+}
 
 .button {
   text-decoration: none;
@@ -52,20 +60,25 @@ body {
   padding: 20px;
   letter-spacing: 1px;
   font-size: 1rem;
-  text-align: 50px; }
+  text-align: 50px;
+}
 
 .button-showy {
-  background-color: #4dff4d; }
+  background-color: #4dff4d;
+}
 
 .button:hover {
-  opacity: 0.9; }
+  opacity: 0.9;
+}
 
 .buttons .button {
-  margin: 10px; }
+  margin: 10px;
+}
 
 .about {
   padding: 50px 30px;
-  background-color: black; }
+  background-color: black;
+}
 
 .heading {
   font-size: 2.4rem;
@@ -73,7 +86,8 @@ body {
   margin: 30px 0 100px;
   letter-spacing: 2px;
   position: relative;
-  display: inline-block; }
+  display: inline-block;
+}
 
 .heading::before,
 .heading::after {
@@ -83,38 +97,48 @@ body {
   left: 0;
   right: 0;
   /*background-color: white;*/
-  border-bottom: 1px solid white; }
+  border-bottom: 1px solid white;
+}
 
 .heading::after {
-  bottom: 5px; }
+  bottom: 5px;
+}
 
 .about-text {
   margin: 0 230px 50px;
-  line-height: 2.5; }
+  line-height: 2.5;
+}
 
 .works {
-  padding: 50px 30px; }
+  padding: 50px 30px;
+}
 
 .works-text {
-  margin: 0 230px 50px; }
+  margin: 0 230px 50px;
+}
 
 .skills {
   padding: 50px 30px;
-  background-color: black; }
+  background-color: black;
+}
 
 .skills-text {
   margin: 0 230px 50px;
-  letter-spacing: 1px; }
+  letter-spacing: 1px;
+}
 
 .contact {
-  padding: 50px 30px; }
+  padding: 50px 30px;
+}
 
 .contact-form {
   width: 50%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .contact .heading {
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+}
 
 input[type="text"],
 input[type="email"] {
@@ -129,7 +153,8 @@ input[type="email"] {
   background-color: rgba(255, 255, 255, 0.5);
   /*cursor: pointer;*/
   font-size: 1rem;
-  /*白の透明度を上げてやれば透けガラス風*/ }
+  /*白の透明度を上げてやれば透けガラス風*/
+}
 
 textarea {
   width: 100%;
@@ -142,15 +167,16 @@ textarea {
   border: 1px solid rgba(255, 255, 255, 0.4);
   background-color: rgba(255, 255, 255, 0.5);
   font-size: 1rem;
-  /*cursor: pointer;*/ }
+  /*cursor: pointer;*/
+}
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  -webkit-box-shadow: inset 0 0 10px 4px rgba(255, 255, 255, 0.5);
   box-shadow: inset 0 0 10px 4px rgba(255, 255, 255, 0.5);
   cursor: text;
-  background-color: rgba(255, 255, 255, 0.8); }
+  background-color: rgba(255, 255, 255, 0.8);
+}
 
 input[type="submit"] {
   display: block;
@@ -160,46 +186,66 @@ input[type="submit"] {
   /*height: 300px;*/
   border-radius: 5px;
   background-color: rgba(255, 255, 255, 0.5);
-  font-size: 1rem; }
+  font-size: 1rem;
+}
 
 input[type="submit"]:hover {
   opacity: 0.9;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 .footer {
   font-size: 1rem;
   padding: 20px;
-  color: rgba(255, 255, 255, 0.6); }
+  color: rgba(255, 255, 255, 0.6);
+}
 
 @media (max-width: 768px) {
   .site-title-sub::before,
   .site-title-sub::after {
     width: 20px;
-    margin: 0 5px; }
+    margin: 0 5px;
+  }
+
   .site-title {
     margin-top: 0;
-    font-size: 3rem; }
+    font-size: 3rem;
+  }
+
   .about-text {
     margin: 0;
-    font-size: 1rem; }
+    font-size: 1rem;
+  }
+
   .works-text {
     margin: 0;
-    font-size: 1rem; }
+    font-size: 1rem;
+  }
+
   .skills-text {
     margin: 0;
-    font-size: 1rem; }
+    font-size: 1rem;
+  }
+
   p.works-text,
   p.skills-text {
-    margin-bottom: 50px; }
+    margin-bottom: 50px;
+  }
+
   .contact-form {
-    width: 100%; }
+    width: 100%;
+  }
+
   .footer {
     font-size: 0.8rem;
-    color: rgba(255, 255, 255, 0.6); } }
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
 
 /*confirmation.php*/
 .confirmation {
-  padding: 170px 30px 170px; }
+  padding: 170px 30px 170px;
+}
 
 .confirmation-form {
   width: 50%;
@@ -212,11 +258,14 @@ input[type="submit"]:hover {
   border: 1px solid rgba(255, 255, 255, 0.4);
   background-color: rgba(255, 255, 255, 0.5);
   /*cursor: pointer;*/
-  font-size: 1rem; }
+  font-size: 1rem;
+}
 
 .confirmation-form input[type="submit"] {
-  display: inline-block; }
+  display: inline-block;
+}
 
 .confirmation-text {
   line-height: 2.5;
-  font-size: 1.4rem; }
+  font-size: 1.4rem;
+}
