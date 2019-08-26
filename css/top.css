@@ -19,7 +19,7 @@ body {
   letter-spacing: 1px; }
 
 header .logo a {
-  font-size: 32px;
+  font-size: 2rem;
   text-decoration: none;
   color: white; }
 
@@ -42,11 +42,11 @@ section {
       width: 50%;
       color: white; }
       section .wrapper .left h2 {
-        font-size: 24px;
-        margin-bottom: 20px; }
+        margin-bottom: 20px;
+        font-size: 2.4rem; }
       section .wrapper .left p {
-        font-size: 16px;
-        line-height: 1.5; }
+        line-height: 1.5;
+        font-size: 1.8rem; }
     section .wrapper .right {
       width: 50%; }
       section .wrapper .right .buttons {
@@ -62,11 +62,11 @@ section {
           width: 200px;
           height: 50px;
           color: white;
-          background-color: #ff4de1;
+          background-color: #4dd4ff;
           border-radius: 5px;
           padding: 20px;
           margin: 10px;
           letter-spacing: 1px;
-          font-size: 1.6rem; }
+          font-size: 1.2rem; }
       section .wrapper .right:hover {
         opacity: 0.9; }
